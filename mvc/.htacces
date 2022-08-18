@@ -1,0 +1,9 @@
+<ifModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /mvc/
+RewriteRule ^app\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /mvc/app.php [QSA,L]
+</ifModule>
+

@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	backgrpund-color: #f0f8ff
+}
+
+h2,h3 {
+	font-size: 1.0em;
+}
+
+a {
+	color: #3399cc;
+}
+
+#header {
+	padding: 0px;
+	border-top: 2px solid #ff0000;
+	border-bottom: 2px solid #ff0000;
+}
+
+#header h1 {
+	font-size: 1.4em;
+	margin: 5px 100px;
+}
+
+#header h1 a {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#header h1 a:hover {
+	color:#ff6600;
+}
+
+#nav {
+	margin: 0 100px;
+}
+
+#main {
+	margin: 0 100px;
+}
+
+.status {
+	padding: 10px;
+	border: 2px solid #cccccc;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+}
+
+u1.error_list {
+	border: 1px solid #ff0000;
+	background-color: #ffcccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+u1.error_list li {
+	color: #ff0000;
+}
+
+.account {
+	float: left;
+	background-color: #ffcccc;]
+	padding: 0px 30px 10px 30px;
+	width: 200px;
+}
+
+.f_user {
+	float: left;
+	background-color: #ffcccc;]
+	padding: 0px 30px 10px 30px;
+	mergin-left: 60px;
+	width: 200px;
+}
